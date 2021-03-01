@@ -1,0 +1,74 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #161616;
+
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+#main{
+	width: 100%;
+	height: 100vh;
+	box-sizing: border-box;
+	background-color: #edf1fd; 
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 1600px;
+	background-position: right bottom;
+	padding-top: 100px;
+	background-image: url("../images/AeroCodingLogo.jpeg");
+	background-color: #edf1fd;
+	display: flex;
+}
+
+nav{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-family: calibri;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width:100%;
+	box-sizing: border-box;
+	padding: 10px 50px;
+	background-color:#F4F7FF;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.05); 
+	z-index: 1;
+}
+
+
+
+.menu{
+	display: flex;
+}
+.menu li a{
+	padding:10px 15px;
+	color:#6c707c;
+	font-size: 12px;
+}
+.lang{
+	color:#292929;
+
+}
+.logo{
+	font-size: 25px;
+	font-weight: bold;
+	color:#292929;
+	font-family: Poppins;
+}
+
+.menu li a:hover{
+	background-color: #292929; /*change it to #6b36d6*/
+	color: #FFFFFF !important;/* learn important and change color*/
+	font-weight: bold;
+	transition: all ease 0.4s; /* learn and changes*/
+}
+
