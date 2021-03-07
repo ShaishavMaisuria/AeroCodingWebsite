@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body{
 	margin: 0px;
 	padding: 0px;
@@ -9,7 +12,25 @@ ul{
 }
 a{
 	text-decoration: none;
+
 }
+/*#mainSlogan p{
+	color: white;
+	
+	margin-top:  10%;
+	padding: 20%;
+	/*text-shadow: 2px 2px 5px red;*/
+/*}*/
+.content {
+   position: relative;
+  bottom: 1px;
+  /*background: rgba(0, 0, 0, 0.5);*/
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20%;
+  margin: 13%;
+}
+
 #main{
 	width: 100%;
 	height: 100vh;
@@ -17,11 +38,12 @@ a{
 	background-color: #edf1fd; 
 	position: relative;
 	background-repeat: no-repeat;
-	background-size: 1600px;
+	background-size: 100%;
 	background-position: right bottom;
 	padding-top: 100px;
 	background-image: url("../images/AeroCodingLogo.jpeg");
-	background-color: #edf1fd;
+	min-width: 100%;
+	min-height: 100%;
 	display: flex;
 }
 
@@ -38,12 +60,27 @@ nav{
 	left: 0;
 	width:100%;
 	box-sizing: border-box;
-	padding: 10px 50px;
+	padding: 1% 1%;
 	background-color:#F4F7FF;
 	box-shadow:2px 2px 12px rgba(0,0,0,0.05); 
 	z-index: 1;
 }
 
+#myBtn {
+  width: 200px;
+  margin-left: 20%;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: red;
+  color: black;
+}
 
 
 .menu{
