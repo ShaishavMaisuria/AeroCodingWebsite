@@ -3,6 +3,8 @@
 }
 body{
 	margin: 0px;
+	height: 100%;
+	
 	padding: 0px;
 	background-color: #161616;
 
@@ -14,23 +16,19 @@ a{
 	text-decoration: none;
 
 }
-/*#mainSlogan p{
-	color: white;
-	
-	margin-top:  10%;
-	padding: 20%;
-	/*text-shadow: 2px 2px 5px red;*/
-/*}*/
+
 .content {
    position: relative;
   bottom: 1px;
-  /*background: rgba(0, 0, 0, 0.5);*/
   color: #f1f1f1;
   width: 100%;
-  padding: 20%;
-  margin: 13%;
+  padding: 18%;
+  margin-left: 13%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
-
+    
 #main{
 	width: 100%;
 	height: 100vh;
@@ -47,24 +45,6 @@ a{
 	display: flex;
 }
 
-nav{
-	display:flex;
-	justify-content: space-between;
-	align-items: center;
-	text-transform: uppercase;
-	font-weight: 600;
-	letter-spacing: 2px;
-	font-family: calibri;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width:100%;
-	box-sizing: border-box;
-	padding: 1% 1%;
-	background-color:#F4F7FF;
-	box-shadow:2px 2px 12px rgba(0,0,0,0.05); 
-	z-index: 1;
-}
 
 #myBtn {
   width: 200px;
@@ -83,29 +63,50 @@ nav{
 }
 
 
-.menu{
-	display: flex;
-}
-.menu li a{
-	padding:10px 15px;
-	color:#6c707c;
-	font-size: 12px;
-}
-.lang{
-	color:#292929;
 
-}
-.logo{
-	font-size: 25px;
-	font-weight: bold;
-	color:#292929;
-	font-family: Poppins;
+
+
+
+
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons
+*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 30px;
+    border-radius: 50%;
 }
 
-.menu li a:hover{
-	background-color: #292929; /*change it to #6b36d6*/
-	color: #FFFFFF !important;/* learn important and change color*/
-	font-weight: bold;
-	transition: all ease 0.4s; /* learn and changes*/
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
 
