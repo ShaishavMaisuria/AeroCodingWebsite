@@ -1,0 +1,29 @@
+body{
+	/*margin:1%;*/
+	background-color: black;
+	color: white;
+	
+	font-size: 20px;
+	font-family: calibri;
+	margin-top: 20px;
+}
+
+.bodi{
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-left: 20%;
+	padding-right: 20%;
+	margin-top: 10%;
+
+}
+.centerValue, h3{
+
+	text-align: center;
+}
+#videoCenter{
+	padding: 8%;
+}
+iframe{
+	width: 600px;
+	height:500px; 
+}

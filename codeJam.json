@@ -1,0 +1,23 @@
+{"Rules":[
+	{
+		"Header":" Hello world ",
+		"content":[
+			"Welcome! Here you can learn the rules, get answers to your questions by reading the FAQ, and find out more about the community that’s growing around the challenge."
+			
+		]
+	},{
+		"Header":" Two Main Rules",
+		"content":[
+			"Code minimum an hour every day for the next 100 days"
+			,"Tweet your progress every day with the #100DaysOfCode hashtag. Learn more about the rules   "
+			
+		]
+	},
+	{
+		"Header":" Publicly commit to the challenge ",
+		"content":[
+			"If you made the decision to commit to the challenge, Click here to tweet it to the world, making yourself accountable and taking your resolve to the next level!"
+			
+		]
+	}
+]}		

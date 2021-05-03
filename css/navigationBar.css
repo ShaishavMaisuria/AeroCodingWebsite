@@ -68,8 +68,14 @@ ul.menu li.right a:hover { background-color: #F4F7FF; color:black;}
 
 #footer-services {
 	
-  text-align: center !important;
-  padding: 1px !important;
+/*  text-align: center;
+  padding: 1px;
+  color: white;*/
+  text-align: center ;
+  
   color: white;
-  z-index: 1 !important;
+  z-index: 1 ;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }

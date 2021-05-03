@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-	  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 
 
 	<title>
 		Contact-AeroCoding
 	</title>
-<link rel="icon" type="image/png" href="images/AeroCodingLogo.png"/>
-	  <link rel="stylesheet" type="text/css" href="css/contactUs.css"/>
-	   <link rel="stylesheet" type="text/css" href="css/navigationBar.css"/>
+	<link rel="icon" type="image/png" href="images/AeroCodingLogo.png"/>
+	<link rel="stylesheet" type="text/css" href="css/contactUs.css"/>
+	<link rel="stylesheet" type="text/css" href="css/navigationBar.css"/>
 
-	   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-	   <script type="text/javascript" src="javascript/contact.js"></script>
-	     <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+	<!-- Asked TA whether this is plugin for jquery or not TA said it is valid so this is plugin 2 for toogle-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="javascript/contact.js"></script>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 
 
-	<!--   
-I wanted to give some animation to contact button 
-didnot use the code just understood and changed and made my own code
 
-	https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_class
-			and
-	https://www.w3schools.com/howto/howto_js_toggle_class.asp
+	<!-- Asked TA whether this is plugin for jquery or not TA said it is valid so this is plugin 3 date picker-->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+		<!--   
+	I wanted to give some animation to contact button 
+	didnot use the code just understood and changed and made my own code
+
+		https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_class
+				and
+		https://www.w3schools.com/howto/howto_js_toggle_class.asp
 	-->
 
 	<!-- used to remove errors from my applied javascript but didnot copy any code https://stackoverflow.com/questions/2194992/jquery-is-not-defined -->
@@ -32,83 +37,80 @@ didnot use the code just understood and changed and made my own code
 </head>
 <body>
 
+	<header></header>
+	<!--   navigation    -->
+	<nav>
+
+		<!--    menu     -->
+		<ul class="menu" >
+
+			<li><a href="index.html" aria-label="Home" > Home </a></li>
+			<li> <a href="about.html" aria-label="About" >About</a></li>
+			<li>  <a href="services.html" aria-label="Services">Services </a></li>
+			<li> <a href="codeJam.html" aria-label="CodeJamingRules">CodeJaming Rules</a></li>
+			<li> <a href="contactUs.html" class="active" aria-label="Contact"> Contact </a></li>
+
+			<li class="right"><a href="index.html" aria-label="AeroCodingLogo">   Aero Coding </a> </li>
+
+		</ul>
+	</nav>
 
 
-<header></header>
-    <!--   navigation    -->
-    <nav>
+	<section id="contact-us">
+		<div class="contact-btn">
+			<!-- heading  -->
+			<h1 class="c-b-heading">Business Queries or any Other Queries ?</h1>
+			<!--  btn -->
+			<button >Contact Us</button>
 
-      <!--    menu     -->
-    <ul class="menu" >
-
-
-    <li><a href="index.html" > Home </a></li>
-     <li> <a href="about.html" >About</a></li>
-    <li>  <a href="services.html">Services </a></li>
-    <li> <a href="#buyMeCoffee">   buyMeCoffee </a></li>
-     <li> <a href="contactMe.html" class="active"> Contact </a></li>
-
-      <li class="right"><a href="index.html" >   Aero Coding </a> </li>
-    
-     
- 
-</ul>
-  </nav>
+		</div>
 
 
-<section id="contact-us">
-	<div class="contact-btn">
-		<!-- heading  -->
-		<h1 class="c-b-heading">Business Queries or any Other Queries ?</h1>
-		<!--  btn -->
-		<button >Contact Us</button>
+		<div class="contact-form">
+			<form action="#">
 
-	</div>
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
+				<label for="lname">Last Name</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
 
-	<div class="contact-form">
-		<form action="#">
-			
-			<label for="fname">First Name</label>
-			<input type="text" id="fname" name="firstname" placeholder="Your name..">
+				<label id="QueryType">Query Type</label>
+				<select id="BusinessType" name="BusinessType">
+					<option value="Business">Business Related</option>
+					<option value="Concern">Concern Related</option>
+					<option value="Other">Other</option>
 
-			<label for="lname">Last Name</label>
-			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-			<label id="QueryType">Query Type</label>
-			<select id="BusinessType" name="BusinessType">
-				<option value="Business">Business Related</option>
-				<option value="Concern">Concern Related</option>
-				<option value="Other">Other</option>
-				
-			</select>
+				</select>
 
 
-			<label for="country">Country</label>
-			<select id="country" name="country">
-				<option value="australia">Australia</option>
-				<option value="canada">Canada</option>
-				<option value="usa">USA</option>
-				<option value="india">INDIA</option>
-				<option value="Other">OTHER</option>
-			</select>
+				<label for="country">Country</label>
 
-			<label for="subject">Subject</label>
-			<textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
-
-			<input type="submit" value="Submit">
-		</form>
-	</div>
+				<select id="country" name="country">
+					<option value="australia">Australia</option>
+					<option value="canada">Canada</option>
+					<option value="usa">USA</option>
+					<option value="india">INDIA</option>
+					<option value="Other">OTHER</option>
+				</select>
+				<label for="datepicker">Date</label>
+				<input type="text" id="datepicker" name="datePicker" placeholder="MM/DD/YYYY" required> 
 
 
-</section>
+				<label for="subject" >Subject</label>
+				<textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
 
+				<input type="submit" value="Submit">
+			</form>
+		</div>
 
-<footer id="footer">
-  
-  <p><a href="mailto:abc@example.com">abc@example.com</a></p>
-  <p>Author:Shaishav Maisuria</p>
-</footer>
+	</section>
+
+	<footer id="footer">
+
+		<p><a href="mailto:abc@example.com" aria-label="mailto">abc@example.com</a></p>
+		<p>Author:Shaishav Maisuria</p>
+	</footer>
 
 
 
