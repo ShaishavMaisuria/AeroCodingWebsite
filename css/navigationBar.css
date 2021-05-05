@@ -4,9 +4,7 @@ a{
 
 }
 
-
-
-
+/* actuall navigation class where all blocks decoration will be set up*/
 nav{
 	justify-content: space-between;
 	align-items: center;
@@ -26,8 +24,7 @@ nav{
 	padding-bottom: 0px;
 	
 }
-
-
+/* changing from list view to horizontal view as taskbar*/
 ul.menu {
   list-style-type: none;
   margin: 0;
@@ -46,6 +43,10 @@ ul.menu li a {
   text-decoration: none;
 }
 
+/**
+creating custom hoverable list makes easier to form active class and non active class as well as provide some decoration
+*/
+
 ul.menu li a:hover:not(.right) {background-color: #111; color:white;} 
 
 ul.menu li a:hover:not(.active) {background-color: #111; color:white;} 
@@ -54,6 +55,10 @@ ul.menu li a.active {background-color:black; color:#F4F7FF;}
 ul.menu li.right {float: right; font-size: 20px;}
 
 ul.menu li.right a:hover { background-color: #F4F7FF; color:black;}
+
+/**
+creating custom footer based upon the need of the page
+*/
 
 #footer {
   text-align: center;
@@ -68,9 +73,7 @@ ul.menu li.right a:hover { background-color: #F4F7FF; color:black;}
 
 #footer-services {
 	
-/*  text-align: center;
-  padding: 1px;
-  color: white;*/
+
   text-align: center ;
   
   color: white;

@@ -14,8 +14,8 @@ a{
 	text-decoration: none;
 
 }
-
-
+/*creating the contact-us class that will be used for the
+form and than button to make hoverable as well as give some decoration */
 
 #contact-us{
 	width: 100%;
@@ -101,14 +101,14 @@ input[type=submit]:hover {
 	
 }
 
-
+/*
+decorating the form the color and all properties connected to the form
+*/
 .contact-form, .contact-btn {
 	padding: 5px;
 
 
 }
-
-
 
 .contact-form {
 	border-radius: 5px;
@@ -123,6 +123,8 @@ input[type=submit]:hover {
 
 
 }
+
+/*changing color and ui of date picker */
 .ui-datepicker{
 	background: black;
 	border: 3px solid white;
@@ -130,6 +132,7 @@ input[type=submit]:hover {
 	width: 20%;
 }
 
+/*custom made height to look form more attractive inside textbox*/
 #subject{
 	height:200px;
 }

@@ -7,7 +7,7 @@ body{
 	font-family: calibri;
 	margin-top: 20px;
 }
-
+/*section is used to contain all the elements and work upon it give a vertical squeezed rectangle look*/
 .bodi{
 	margin-left: 10%;
 	margin-right: 10%;
@@ -20,6 +20,7 @@ body{
 
 	text-align: center;
 }
+/*providing the decoration for the implemented video in iframe and used class*/
 #videoCenter{
 	padding: 8%;
 }

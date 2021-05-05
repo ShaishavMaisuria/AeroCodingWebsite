@@ -1,5 +1,3 @@
-
-
 .about{
 	width:100%;
 	height: 100vh;
@@ -11,6 +9,7 @@
 	padding: 50px 5% 0px 5%;
 	position: relative;
 /* this changes the picture where it is uploaded */}
+/*From here on we are trying to implement decoration to haddings, names and para graphs*/
 .about-text{
 	font-family: calibri;
 	width: 50%;
@@ -40,7 +39,7 @@
 	width: 80%;
 	
 }
-
+/*custominzing the model pictures based on quality and ui */
 .about-model img{
 
 	border-radius:   50%; 	

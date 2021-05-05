@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 body{
 	margin: 0px;
@@ -18,16 +18,19 @@ a{
 }
 
 .content {
- position: relative;
- bottom: 1px;
- color: #f1f1f1;
- width: 100%;
- padding: 18%;
- margin-left: 13%;
- margin-right: 10%;
- margin-top: 10%;
- margin-bottom: 10%;
+	position: relative;
+	bottom: 1px;
+	color: #f1f1f1;
+	width: 100%;
+	padding: 18%;
+	margin-left: 13%;
+	margin-right: 10%;
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
+/*
+* for creading the background of aerocoding and adjusting the webpage
+*/
 
 #main{
 	width: 100%;
@@ -46,67 +49,47 @@ a{
 }
 
 
-#myBtn {
-  width: 200px;
-  margin-left: 20%;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-}
-
-#myBtn:hover {
-  background: red;
-  color: black;
-}
-
-
-
-
-
-
 
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons
+* all social media buttons have some form of styling
 */
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 15px 30px;
-  border-radius: 50%;
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 15px 30px;
+	border-radius: 50%;
 }
 
 .fa:hover {
-  opacity: 0.7;
+	opacity: 0.7;
 }
 
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+	background: #3B5998;
+	color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
+	background: #55ACEE;
+	color: white;
 }
 
 
 .fa-linkedin {
-  background: #007bb5;
-  color: white;
+	background: #007bb5;
+	color: white;
 }
 
 .fa-youtube {
-  background: #bb0000;
-  color: white;
+	background: #bb0000;
+	color: white;
 }
 
 .fa-instagram {
-  background: #125688;
-  color: white;
+	background: #125688;
+	color: white;
 }
 
